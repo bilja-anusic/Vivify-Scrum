@@ -1,0 +1,22 @@
+{
+  "name": "vivifyscrum",
+  "version": "1.0.0",
+  "description": "vivifyscrum e2e automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open",
+    "cypressHeadless": "cypress run"
+  },
+  "keywords": [
+    "vivifyscrum",
+    "e2e",
+    "automation"
+  ],
+  "author": "biljana",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.2.0"
+  }
+}
